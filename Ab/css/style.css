@@ -1,0 +1,235 @@
+body
+{
+	margin:0;
+	padding:0;
+}
+form
+{
+	margin:0;
+	padding:0
+}
+a
+{
+	text-decoration: none;
+	outline:0
+}
+img
+{
+	border:0px solid #6da4e2;
+}
+textarea
+{
+	border:1px solid #6da4e2
+}
+div.cao_3_px
+{
+	height:3px;
+	width:5px;
+	overflow:hidden;
+	border:0px solid #6da4e2;
+}
+input
+{
+	border:1px solid #999999;/* Bien cua textbox*/
+}
+select
+{
+	border:1px solid #999999;
+}
+
+div.khung_td
+{
+	width:170px;
+	height:27px;
+	/*border:1px solid #999999;*/
+	-moz-border-radius-topleft:10px; 
+	-webkit-border-top-left-radius:10px;
+	-moz-border-radius-topright:10px;
+	-webkit-border-top-right-radius:10px;
+	background-image:url('../image/Giaodien/ab.png');/*hinh nen menu cac chuyen muc*/
+}
+div.khung_td span
+{
+	color:white;
+	line-height:27px;
+	margin-left:25px;
+	cursor:default;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight:bold;
+	
+}
+div.khung_timkiem
+{
+	
+	width:1100px;
+	border:1px solid #6da4e2;/*mau vien tru danh muc*/
+	border-top:1px solid #999999;
+	margin-top: 0px;
+	-moz-border-radius-topleft:10px; 
+	-webkit-border-top-left-radius:10px;
+	background:#FFFFFF;/*Mau nen trong khung tru danh muc*/
+}
+div.khung_nd
+{
+	width:168px;
+	border:1px solid #6da4e2;/*mau vien tru danh muc*/
+	border-top:0px solid #999999;
+	background:#FFFFFF;/*Mau nen trong khung tru danh muc*/
+}
+div.khung_footer
+{
+	
+	width:1100px;
+	border:1px solid #6da4e2;/*mau vien tru danh muc*/
+	border-top:1px solid #999999;
+	margin-top: 0px;
+	background:#FFFFFF;/*Mau nen trong khung tru danh muc*/
+}
+div.san_pham_moi img
+{
+	width:90px;
+	height:102px;
+	
+	border:0px solid #999999;
+}
+div.san_pham_moi a /*Van ban trong hang moi, hang ban chay nhat*/
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color:black;
+	width:120px;
+	display:inline-block;
+	font-size:12px;
+}
+div.san_pham_moi span
+{
+	font-weight:bold;
+	color:#a42e2e; /* Mau don gia*/
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+div.san_pham_moi div.display
+{
+	width:160px;
+	border:1px solid #CCCCCC;/*Mau border cua hinh nam trong hang moi, hang ban chay*/
+}
+
+div.display_td /*Vung Detail*/
+{
+	-moz-border-radius-topleft:10px; 
+	-webkit-border-top-left-radius:10px;
+	-moz-border-radius-topright:10px;
+	-webkit-border-top-right-radius:10px;
+	background:#348aeb; /*Tieu de*/
+	border:1px solid #6da4e2;
+	height:27px;
+	width:750px;
+	margin-left:5px
+}
+div.display_td a
+{
+	color:white;
+	font-weight:bold;
+	margin-left:5px;
+	line-height:27px;
+}
+div.display_nd
+{
+	background:#FFFFFF; /*Mau nen vung Detail*/
+	border:1px solid #6da4e2;
+	width:750px;
+	margin-left:5px
+}
+table.san_pham
+{
+ /*Font vung chi tiet */
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+table.san_pham td
+{
+	width:100px;
+	text-align:center;
+	vertical-align:text-top;
+}
+table.san_pham div
+{
+	width:240px;
+	border:1px solid #CCCCCC;
+}
+table.san_pham span
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight:bold;
+	color:#a42e2e; /* Mau gia vung chi tiet*/
+}
+table.san_pham td a.td
+{
+	font-family: Arial, Helvetica, sans-serif;
+	display:inline-block;
+	width:170px;
+	color:blue; /*Mau text vung chi tiet*/
+}
+table.san_pham td a.td:hover
+{
+	color:red /* Mau hover vung chi tiet*/
+	font-family: Arial, Helvetica, sans-serif;
+}
+table.san_pham td img
+{
+	width:200px;
+	height:150px;
+	margin-top:3px;
+}
+
+a.link_1:link { text-decoration: none;  color: black; font-weight: bold}
+a.link_1:visited { color: black; text-decoration: none; font-weight: bold}
+a.link_1:hover { text-decoration: underline; color:#a70001; font-weight: bold; font-style: normal; }
+div.thong_ke
+{
+	margin-left:10px
+}
+span.span__1
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#000000; /* Mau luot truy cap*/
+}
+span.span__2
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#000000; /* Mau luot truy cap du lieu dong*/
+	font-weight:bold
+}
+
+table.table__abc
+{
+	border:1px solid #336600; /* Mau*/
+	border-collapse: collapse;
+	cursor:default;
+}
+table.table__abc td
+{
+	/*vertical-align:top;*/
+	border:1px solid #6da4e2;
+	background:#FFFFFF;
+}
+
+table.table__abc tr td.table__abc___tr_td__dau
+{
+	font-family: Arial, Helvetica, sans-serif;
+	background:#6da4e2;
+	font-weight:bold;
+	color:#0b55c4
+}
+#table__abc___tr_td
+{
+	background:#white;
+}
+#table__abc___tr_td_hover
+{
+	background:#CC3300; 
+}

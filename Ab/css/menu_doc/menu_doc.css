@@ -1,0 +1,60 @@
+	div.menu_doc
+	{
+		
+	}
+	div.menu_doc ul
+	{
+		padding:0;
+		margin:0;
+		list-style:none;
+		width:168px;
+		background:#FFFFFF; /* Mau nen menu doc san pham*/
+		border:1px solid #6da4e2; /* Mau vien menu doc san pham*/
+		border-bottom:1px solid #6da4e2;
+		border-top:0px solid #999999;
+		color: #993333;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 12px;
+		font-weight: bold;
+	}
+	div.menu_doc ul li
+	{
+		position:relative;
+		z-index:1200;
+	}
+	div.menu_doc ul li a
+	{
+		position:relative;
+		display:inline-block;
+		width:148px;
+		border-bottom:1px dotted #6da4e2; /*Border vien giua Bottom menu danh muc con*/
+		border-top:0px dotted #6da4e2; /*Border Bottom menu danh muc con*/
+		text-decoration: none;
+		color:black;
+		padding:4px 10px 4px 10px;
+
+	}
+	div.menu_doc ul li a:hover
+	{
+		background:#993333; /*Mau nen Danh muc khi re chuot len*/
+			color: #FFFFFF;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	}
+	div.menu_doc ul li ul
+	{
+		position:absolute;
+		display:none;
+		left:168px;
+		top:0px;
+		border-top:1px solid #6da4e2; /*vien menu con cua menu doc*/
+	}
+	img.mnd_img
+	{
+		position:absolute;
+		right:8px;
+		height:7px;
+		top:50%;
+		margin-top:-4px;
+	}

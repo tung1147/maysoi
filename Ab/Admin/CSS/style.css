@@ -1,0 +1,172 @@
+ul.menu_ngang
+{
+	position:relative;
+	
+	width:944px;
+	height:26px;
+	list-style:none;
+	padding:0px 0px 0px 0px;
+	margin:0px 0px 0px 0px;
+	
+	background:#f0f0f0;
+	border:1px solid #cccccc;
+	border-right:0px solid #cccccc;
+	border-left:0px solid #cccccc;
+	text-align:left;
+	z-index:1000;
+	float:left;
+
+
+
+}
+ul.menu_ngang li
+{
+	position:relative;
+	float:left;
+	z-index:1000;
+	
+}
+ul.menu_ngang li a
+{
+	position:relative;
+	display:inline-block;
+	padding:0px 20px 0px 8px;
+	text-decoration: none;
+	color:black;
+	font-weight:bold;
+	
+	border-left:1px solid #ffffff;
+	border-right:1px solid #d8d8d8;
+	border-bottom:1px solid #d8d8d8;
+	border-top:1px solid #d8d8d8;
+	min-height:25px;
+	line-height:25px;
+	z-index:1000;
+
+}
+ul.menu_ngang li ul
+{
+	position:absolute;
+	padding:0px 0px 0px 0px;
+	background:#f0f0f0;
+	list-style:none;
+	border-left:1px solid #cccccc;
+	margin:0px 0px 0px -1px;
+	border-top:1px solid #cccccc;
+	top:26px;
+	left:0px;
+	z-index:1000;
+
+
+	display:none;
+	
+}
+ul.menu_ngang li ul li
+{
+	clear:left;
+	position:relative;
+	z-index:1000;
+
+}
+ul.menu_ngang li ul li a
+{
+	position:relative;
+	width:170px;
+	border:1px solid #cccccc;
+
+	border-top:1px solid #ffffff;
+	z-index:1000;
+	
+}
+ul.menu_ngang li ul li ul
+{
+	margin:0px 0px 0px 200px;
+	z-index:1000;
+	top:0px;
+	left:0px;
+
+
+}
+img.img_mnn_tx
+{
+	position:absolute;
+	top:50%;
+	margin-top:-3px;
+	right:8px;
+	z-index:1000;
+}
+img.img_mnn_tn
+{
+	position:absolute;
+
+	top:50%;
+	margin-top:-3px;
+	right:8px;
+	z-index:1000;
+}
+ul.menu_ngang li a:hover
+{
+	background:#e7eddf;
+	z-index:1000;
+	border:1px solid #6d9d2e;
+}
+
+div.div_home
+	{		
+		text-align: center;
+		width:560px;
+		background:#f9f9f9;
+		border:1px solid #cccccc;
+		margin-top:6px;
+	}
+	div.div_home img
+	{
+		width:65px;
+		height:65px;
+		margin-top:6px
+	}
+	div.div_home span
+	{
+		font-size:12px;
+		color:#666666;
+		cursor:default;
+	}
+	table.div_home_table td
+	{
+		width:236px;
+
+	}
+	table.div_home_table td div
+	{
+		border:1px solid #f0f0f0;
+		height:110px;
+		width:105px;
+	}
+#table_quanly
+{
+	border:1px;
+	 margin-top:6px;
+	text-align: center;
+	
+	border-color: #ff0000;
+
+}
+#table_them
+{
+	border:1px;
+	 margin-top:0px;
+	text-align: left;
+	
+	border-color: #ff0000;
+
+}
+
+#table_sua
+{
+	border:1px;
+	 margin-top:0px;
+	text-align: left;
+	
+	border-color: #ff0000;
+
+}

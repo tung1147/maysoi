@@ -1,0 +1,85 @@
+<?php
+	if($_GET['thamso'] == "xem_gio_hang")
+	{
+		include("chuc_nang/Giohang/sql_them_giohang.php");
+		#trangtruoc();
+		
+	}
+	if($_SESSION['don_hang']=="Yes")
+	{
+		unset($_SESSION['don_hang']);
+		chuyentrang("?thamso=xem_gio_hang");
+		exit();
+	}
+	if(isset($_POST['gui_lien_he']))
+	{
+		include("chuc_nang/Lienhe/sql_lienhe.php");
+		trangtruoc();
+		exit();
+	}
+	if(isset($_POST['dang_ky_thanh_vien']))
+	{
+		include("chuc_nang/Login_Logout/sql_dangky.php");
+		trangtruoc();
+		exit();
+	}
+	if(isset($_POST['dangnhap']))
+	{
+		#echo "aaaa";
+		include("chuc_nang/Login_Logout/sql_dangnhap.php");
+		trangtruoc();
+		exit();
+	}
+	if(isset($_POST['quen_mat_khau']))
+	{
+		#echo "aaaa";
+		include("chuc_nang/Login_Logout/sql_quen_mat_khau.php");
+		trangtruoc();
+		exit();
+	}
+	if(isset($_POST['sua_thanh_vien']))
+	{
+		#echo "aaaa";
+		include("chuc_nang/Login_Logout/sql_sua_thongtin.php");
+		trangtruoc();
+		exit();
+	}
+	
+	if($_GET['thamso']=="thoat")
+	{
+		unset($_SESSION[$ten_danh_dau."ten_dang_nhap"]);
+		unset($_SESSION[$ten_danh_dau."mat_khau"]);
+		chuyentrang("index.php");
+		exit();
+	}
+	/**/if($_SESSION['jac_41']=="co")
+	{
+		unset($_SESSION['jac_41']);
+		chuyentrang("?thamso=xem_gio_hang");
+		exit();
+	}
+	if(isset($_POST['cap_nhat_gio_hang_abc']))
+	{
+		include("chuc_nang/Giohang/capnhat_giohang.php");
+		trangtruoc();
+		exit();
+	}
+	if(isset($_POST['gui_don_hang_abc']))
+	{
+		include("chuc_nang/giohang/sql_gui_giohang.php");
+		trangtruoc();
+		exit();
+	}
+	if($_SESSION['jac_82']=="co")
+	{
+		unset($_SESSION['jac_82']);
+		chuyentrang("?thamso=dang_ky");
+		exit();
+	}
+	if($_SESSION['jac_91']=="co")
+	{
+		unset($_SESSION['jac_91']);
+		chuyentrang("index.php");
+		exit();
+	}
+?>
