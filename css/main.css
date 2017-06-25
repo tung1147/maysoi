@@ -1,0 +1,55 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 24, 2017, 3:58:54 PM
+    Author     : Admin
+*/
+@media (min-width: 1340px) {
+    .show-lg {
+        display: block;
+    }
+}
+@media (max-width: 1340px) {
+    .show-lg {
+        display: none;
+    }
+}
+@media (min-width: 1200px){
+    .container {
+        width: 1100px;
+    }
+}
+.main-banner{
+    width: 100%;
+    border-radius: 20px;
+}
+.mine-nav{
+    border-radius: 10px;
+    background: #348aeb;
+    margin-top: 10px;
+}
+.mine-nav a{
+    color: #000000 !important;
+    font-weight: bold;
+    border-right: 1px solid #FFFFFF;
+}
+@media (max-width: 768px){
+    .mine-nav a {
+        border-bottom: 1px solid #FFFFFF;
+    }
+    .mine-nav a:first-child {
+        border-bottom: 0px solid #FFFFFF;
+    }
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background-color: #ddd;
+}
+.navbar-default .navbar-toggle {
+    border-color: #ddd;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #000;
+}

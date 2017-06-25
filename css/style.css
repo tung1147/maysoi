@@ -174,7 +174,7 @@ table.san_pham td a.td
 }
 table.san_pham td a.td:hover
 {
-	color:red /* Mau hover vung chi tiet*/
+	color:red; /* Mau hover vung chi tiet*/
 	font-family: Arial, Helvetica, sans-serif;
 }
 table.san_pham td img
