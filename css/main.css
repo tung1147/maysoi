@@ -53,3 +53,76 @@ and open the template in the editor.
 .navbar-default .navbar-toggle .icon-bar {
     background-color: #000;
 }
+.search-input-group{
+    display: inline-flex;
+    align-items: stretch;
+    overflow: hidden;
+    margin-right: 10px;
+}
+.search-input-group .input-text{
+    border-radius: 2.467em;
+    border : 2px solid #348aeb;
+    border-radius : 30px;
+    border-right: 0;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+    background: #fff;
+    line-height: 1.34em;
+    padding: 1.01em 2.134em;
+    outline: 0;
+    color: black;
+    width : 200px;
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #818181;
+  font-style: italic;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #818181;
+  font-style: italic;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #818181;
+  font-style: italic;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #818181;
+  font-style: italic;
+}
+.search-button-wrap{
+    background-color: #fed700;
+    display: flex;
+    flex : 1;
+    justify-content: center;
+    align-items : center;
+    line-height: 1.36em;
+    padding: 1.08em 1.93em;
+    border-radius: 2.571em;
+    border : 2px solid #348aeb;
+    border-left: 0;
+    border-radius : 30px;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    cursor: pointer;
+    margin-bottom: 0;
+}
+.input-text-search{
+    backgroundColor : #fffde8;
+    color : black;
+    
+}
+.search-form{
+    display: flex;
+    justify-content : flex-end;
+    align-items: center;
+}
+.language-link-wrapper{
+    display: inline-flex !important;
+    justify-content : space-between;
+    align-items : center;
+}
+.mine-nav .navbar-right a{
+    border-right:  0;
+    margin: 0;
+    padding: 5px;
+}

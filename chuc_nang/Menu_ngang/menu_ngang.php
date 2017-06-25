@@ -36,6 +36,12 @@ $query = mysql_query($sql);
                 }
                 ?>
             </ul>
+            
+            <ul  class="nav navbar-nav navbar-right">
+                    <?php 
+                    include("chuc_nang/Tim_kiem/timkiem.php");
+                    ?>
+            </ul>
         </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
 </nav>

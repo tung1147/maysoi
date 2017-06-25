@@ -58,13 +58,6 @@ include("common.php");
                     ?>
                 </div>
                 
-                <!--Tim kiem-->
-                <div class="row">
-                        <?php
-                        include("chuc_nang/Tim_kiem/timkiem.php");
-                        ?>
-                </div>
-                
                 <div class="row">
                     <td valign="top">
                         <?php
@@ -100,7 +93,7 @@ include("common.php");
                 <!--Footer-->
                 <div class="row">
                         <?php
-//                        include("chuc_nang/Footer/footer.php");
+                        include("chuc_nang/Footer/footer.php");
                         ?>
                 </div>
             </div>
