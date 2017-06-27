@@ -37,7 +37,7 @@ $query = mysql_query($sql);
                 ?>
             </ul>
             
-            <ul  class="nav navbar-nav navbar-right">
+            <ul  class="nav navbar-nav navbar-right hidden-md hidden-sm">
                     <?php 
                     include("chuc_nang/Tim_kiem/timkiem.php");
                     ?>

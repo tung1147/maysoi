@@ -45,59 +45,61 @@ include("common.php");
 
                 <!--Banner-->
                 <div class="row">
-                    <?php
-                    include("chuc_nang/Banner/banner.php");
-                    ?>
+                    <div class="col-lg-12 col-md-12 col-sm-12">
+                        <?php
+                        include("chuc_nang/Banner/banner.php");
+                        ?>
+                    </div>
                 </div>	
 
 
                 <!--Menu ngang-->
                 <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12">
+                        <?php
+                        include("chuc_nang/Menu_ngang/menu_ngang.php");
+                        ?>
+                    </div>
+                </div>
+
+                <div class="row">
                     <?php
-                    include("chuc_nang/Menu_ngang/menu_ngang.php");
+//                    include("chuc_nang/menu_doc/menu_doc.php");
+//                    echo "<div class=\"cao_3_px\"></div>";
+//                    include("chuc_nang/San_pham/san_pham_new.php");
+//                    echo "<div class=\"cao_3_px\"></div>";
+//                    #include("chuc_nang/Giavang_ngoaite/giavang_ngoaite.php");
+//                    echo "<div class=\"cao_3_px\"></div>";
+//                    include("chuc_nang/Quangcao_trai/quang_cao_trai.php");
                     ?>
                 </div>
-                
+
                 <div class="row">
-                    <td valign="top">
-                        <?php
-//                        include("chuc_nang/menu_doc/menu_doc.php");
-//                        echo "<div class=\"cao_3_px\"></div>";
-//                        include("chuc_nang/San_pham/san_pham_new.php");
-//                        echo "<div class=\"cao_3_px\"></div>";
-//                        #include("chuc_nang/Giavang_ngoaite/giavang_ngoaite.php");
-//                        echo "<div class=\"cao_3_px\"></div>";
-//                        include("chuc_nang/Quangcao_trai/quang_cao_trai.php");
-                        ?>
-                    </td>
-                    <td width="760px" valign="top" align="left" >
-                        <?php
-//                        include("chuc_nang/Link_trang/link.php");
-                        ?>
-                    </td>
-                    <td width="170px" valign="top">
-                        <?php
-//                        include("chuc_nang/Login_Logout/dang_nhap.php");
-//                        echo "<div class=\"cao_3_px\"></div>";
-//                        include("chuc_nang/Giohang/giohang.php");
-//                        echo "<div class=\"cao_3_px\"></div>";
-//                        include("chuc_nang/Tructuyen/tructuyen.php");
-//                        echo "<div class=\"cao_3_px\"></div>";
-//                        #include("chuc_nang/Thoitiet/thoitiet.php");
-//                        echo "<div class=\"cao_3_px\"></div>";
-//                        include("chuc_nang/Quangcao_phai/quang_cao_phai.php");
-                        ?>
-                    </td>		
+                    <?php
+                    include("chuc_nang/Link_trang/link.php");
+                    ?>
                 </div>
-                
-                <!--Footer-->
+
                 <div class="row">
-                        <?php
-                        include("chuc_nang/Footer/footer.php");
-                        ?>
+                    <?php
+//                    include("chuc_nang/Login_Logout/dang_nhap.php");
+//                    echo "<div class=\"cao_3_px\"></div>";
+//                    include("chuc_nang/Giohang/giohang.php");
+//                    echo "<div class=\"cao_3_px\"></div>";
+//                    include("chuc_nang/Tructuyen/tructuyen.php");
+//                    echo "<div class=\"cao_3_px\"></div>";
+//                    #include("chuc_nang/Thoitiet/thoitiet.php");
+//                    echo "<div class=\"cao_3_px\"></div>";
+//                    include("chuc_nang/Quangcao_phai/quang_cao_phai.php");
+                    ?>
                 </div>
             </div>
         </center>
+
+        <!--Footer-->
+        <?php
+        include("chuc_nang/Footer/footer.php");
+        ?>
         <script src="js/bootstrap.min.js"></script>
     </body>
     <!--<script type="text/javascript" src="CSS/quang_cao/quangcao.js"></script>-->
